@@ -68,7 +68,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
-    /* opacity: 0; */
+    opacity: 0;
 }
 
 .menu-items .menu-item a{
