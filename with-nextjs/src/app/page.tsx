@@ -220,7 +220,7 @@ export default function Home() {
           className="flex gap-[0.35rem] overflow-hidden "
           style={{ width: 0 }} // Initial inline style to prevent FOUC before GSAP takes over
         >
-          {["Work", "Manifesto", "Contact"].map((item) => (
+          {["Work", "About", "Contact"].map((item) => (
             <div
               key={item}
               className="menu-item-el w-max h-14 bg-[#fafafa] rounded-[4rem] flex items-center justify-center shrink-0 opacity-0"
@@ -228,7 +228,7 @@ export default function Home() {
               <Link
                 href="#"
                 // before px-6 now px-5.5
-                className="no-underline text-[#0f0f0f] font-medium tracking-tight px-[20px] select-none whitespace-nowrap"
+                className="no-underline text-[#0f0f0f] font-medium tracking-tight px-[16.2px] select-none whitespace-nowrap"
               >
                 {item}
               </Link>
